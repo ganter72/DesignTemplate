@@ -1,0 +1,7 @@
+// Base styles of the project
+@import './config/_variables';
+@import './config/_helpers';
+@import './config/_fonts';
+@import './config/_base';
+// Styles pero module in the project
+@import './modules/_index';

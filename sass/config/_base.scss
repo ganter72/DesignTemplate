@@ -1,0 +1,13 @@
+[ui-view=menu]{
+    .navbar{
+        background-color: $black;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid $white;
+        padding-bottom: 30px;
+        // margin-bottom: 30px;
+    }
+}
+body{
+    background-color: $black;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Template 01</title>
+
+    <!-- Base Styles -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Base Scripts -->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    <!-- Styles of the app -->
+    <link rel="stylesheet" href="app/assets/css/app.css">
+    
+    <!-- Scripts of the app -->
+    <script src="./app/scripts/app.js"></script>
+    <script src="./app/scripts/routes/indexRoute.js"></script>
+    <!-- Controllers -->
+    <script src="./app/scripts/controllers/indexController.js"></script>
+    <!-- Directives -->
+
+</head>
+
+<body ng-app="template01">
+    <div ui-view="menu"></div>  
+    <div ui-view="main"></div>
+</body>
+</html>
