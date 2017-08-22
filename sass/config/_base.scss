@@ -3,11 +3,20 @@
         background-color: $black;
         border: none;
         border-radius: 0;
-        border-bottom: 1px solid $white;
-        padding-bottom: 30px;
-        // margin-bottom: 30px;
+        border-bottom: 1px solid #212121;
+        margin-bottom: 0px;
     }
 }
 body{
     background-color: $black;
+}
+.btn{
+    border-radius: 2pt;
+    &.btn-primary{
+        background-color: $color-primary;
+        border-color: $color-primary;
+    }
+}
+*{
+    outline: none!important;
 }

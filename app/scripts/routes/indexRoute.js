@@ -7,11 +7,15 @@ app.config(['$stateProvider', '$urlRouterProvider',
       views:{
           'menu':{
               templateUrl:'app/views/modules/menu.html'
+            },
+            'main':{
+              templateUrl:'app/views/modules/main.html',
+              controller:'indexController'
           },
-          'main':{
-              templateUrl:'app/views/modules/main.html'
+          'girls':{
+              templateUrl:'app/views/modules/girls.html'
           }
-      }
+      },
     });
     $urlRouterProvider.otherwise('/');
   }

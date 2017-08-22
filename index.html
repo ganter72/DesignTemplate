@@ -8,21 +8,25 @@
 
     <!-- Base Styles -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 
     <!-- Base Scripts -->
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="node_modules/swiper/dist/js/swiper.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    
-    <!-- Styles of the app -->
-    <link rel="stylesheet" href="app/assets/css/app.css">
     
     <!-- Scripts of the app -->
     <script src="./app/scripts/app.js"></script>
     <script src="./app/scripts/routes/indexRoute.js"></script>
     <!-- Controllers -->
     <script src="./app/scripts/controllers/indexController.js"></script>
+    
+    <!-- Styles of the app -->
+    <link rel="stylesheet" href="app/assets/css/app.css">
+    
     <!-- Directives -->
 
 </head>
@@ -30,5 +34,6 @@
 <body ng-app="template01">
     <div ui-view="menu"></div>  
     <div ui-view="main"></div>
+    <div ui-view="girls"></div>
 </body>
 </html>
