@@ -1,10 +1,26 @@
 .girl{
+    margin:10px 0px;
+    background-color: #e0e0e0;
     overflow: hidden;
-    max-height: 350px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    img{
-        border-radius: 2pt;
-        border: solid 2px $color-primary;
+    border-radius: 2pt;
+    padding-left: 0;
+    padding-right: 0;
+    img.girl-img{
+        overflow: hidden;
+        max-height: 185px;
+        object-fit: cover;
+        min-width: 100%;
+        box-shadow:0 3px 5px -1px rgba(0,0,0,.2), 0 5px 8px 0 rgba(0,0,0,.14), 0 1px 14px 0 rgba(0,0,0,.12);
+        border-bottom: 3px $color-primary solid;
+    }
+    .girl-content{
+        padding: 8px;
+        .girl-name{
+            font-size: 20px;
+            margin-top: 5px;
+        }
+        .girl-info{
+            color: #2E3D47;
+        }
     }
 }
